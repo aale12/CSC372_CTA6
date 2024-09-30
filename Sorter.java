@@ -32,6 +32,9 @@ public class Sorter {
         //name sort comparator
         SelectionSort.selectionSort(students, new NameComparator());
         System.out.println("\nAfter name sorting:");
+        for (Student s : students) {
+            System.out.println(s);
+        }
 
     }
 }
